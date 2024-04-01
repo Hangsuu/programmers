@@ -1,4 +1,4 @@
-package hello.java;
+package hello.javaLv2;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
