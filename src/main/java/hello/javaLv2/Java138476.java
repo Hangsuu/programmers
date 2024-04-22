@@ -17,7 +17,6 @@ public class Java138476 {
                 int index = tangerineIndex.get(tangerine[i]);
                 tangerineList.set(index, tangerineList.get(index)+1);
             } else {
-                List<Integer> tempList = new ArrayList<>();
                 tangerineList.add(1);
                 tangerineIndex.put(tangerine[i], tangerineList.size() -1);
             }
