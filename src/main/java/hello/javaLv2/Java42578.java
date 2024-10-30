@@ -20,8 +20,7 @@ public class Java42578 {
         }
         int answer = 1;
 
-        List<Integer> valueList = new ArrayList<>(clothesMap.values());
-        for(Integer count : valueList) {
+        for(Integer count : clothesMap.values()) {
             answer *= count + 1;
         }
         return answer-1;
